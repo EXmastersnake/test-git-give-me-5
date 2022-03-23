@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 1</title>
+</head>
+
+<body>
+    Votre réservation d'hotel <br>
+
+    <h3>*Champs obligatoires </h3>
+    <form>
+         
+        <label for="Nom">Votre Nom</label> <br>
+        <input type="text" placeholder="nom" id="Nom" name="Nom"><br> <br>
+        
+        <label for="Prenom">Votre prenom</label> <br>
+        <input type="text" placeholder="Prénom" id="Prenom" name="Prenom"><br> <br>
+        
+        <label for="Tel">Numéro</label> <br>
+        <input type="text" placeholder="Numéro" id="Votre Téléphone" name="Téléphone"><br> <br>
+        
+        <label for="Email">Votre E-mail</label> <br>
+        <input type="text" id="Adresse E-mail*" name="E-mail"><br> <br>
+
+
+        Selection la ville: <br>
+        <select id="Selection la ville">
+            <option value="Lille">Lille</option>
+            <option value="Paris">Paris</option>
+            <option value="Bordeaux">Bordeaux</option>
+            <option value="Marseille">Marseille</option>
+            <option value="Nante">Nante</option>
+            <option value="Lyon">Lyon</option>
+            <option value="La_Rochelle">La Rochelle</option>
+            <option value="Poitiers">Poitiers</option>
+            <option value="Toulouse">Toulouse</option>
+
+
+        </select>
+        <br> <br>
+        Date d'arrivée: <br>
+        <input type="date"id="party" name="party" min="2022-03-08" max="2022-04-30"> <br> <br>
+        Nombre de personne*: <br>
+        <input type="number" min="0" step="1" max="10"> <br> <br>
+        Vos options: <br>
+        <input type="checkbox" id="climatisation" name="climatisation" value="climatisation">
+        <label for="climatisation"> climatisation</label>
+
+        <input type="checkbox" id="Mini bar" name="Mini bar" value="Mini bar">
+        <label for="Mini bar"> Mini bar</label>
+        <input type="checkbox" id="Jacuzzi" name="Jacuzzi" value="Jacuzzi">
+        <label for="Jacuzzi"> Jacuzzi</label><br>
+        <textarea>Ajoutez un commentaire.</textarea> <br>
+        Acceptation des condition générales de vente <a href="https://www.disneylandparis.com/fr-fr/legal/conditions-generales-de-vente/">(CGV)</a>
+        
+        <br>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">J'accepte</label> 
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">Je refuse</label> <br> <br>
+        <button type="submit" name="submit">Envoyer ma demande</button>
+        
+
+
+
+    </form>
+
+</body>
+
+</html>
